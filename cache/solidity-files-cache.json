@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\flofl\\Desktop\\Code\\Solidity\\BlockchainDefi\\contracts\\TopSecret.sol": {
-      "lastModificationDate": 1669946802764,
-      "contentHash": "4828d9f2d452b7f5ebb3fdd4368e9c44",
+      "lastModificationDate": 1669948304974,
+      "contentHash": "d08dd68abac259a6f37f3e18ffd01cfe",
       "sourceName": "contracts/TopSecret.sol",
       "solcConfig": {
         "version": "0.8.17",

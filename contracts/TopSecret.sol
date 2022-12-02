@@ -17,13 +17,11 @@ contract TopSecret {
     mapping(address => bool) private isOwner;
 
     constructor() {
-        names[0x5B38Da6a701c568545dCfcB03FcB875f56beddC4] = "Mr remix ide";
         names[0x11BF370F30D4e7cCEE8A1482d41F766E3038319a] = "Mr Elian";
         names[0x3feAf839B1a670b7d0a589F4e4b1309a3e348F92] = "Florian";
         codes["Hello World!"] = true;
         codes["code"] = true;
 
-        isOwner[0x5B38Da6a701c568545dCfcB03FcB875f56beddC4] = true;
         isOwner[0x11BF370F30D4e7cCEE8A1482d41F766E3038319a] = true;
         isOwner[0x3feAf839B1a670b7d0a589F4e4b1309a3e348F92] = true;
     }
