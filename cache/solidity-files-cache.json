@@ -1,10 +1,10 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/elian/Programmation/Solidity/Test/contracts/Test.sol": {
-      "lastModificationDate": 1669945144538,
-      "contentHash": "9312f4366d2d8df88e256a76e9f34b1f",
-      "sourceName": "contracts/Test.sol",
+    "C:\\Users\\flofl\\Desktop\\Code\\Solidity\\BlockchainDefi\\contracts\\TopSecret.sol": {
+      "lastModificationDate": 1669946802764,
+      "contentHash": "4828d9f2d452b7f5ebb3fdd4368e9c44",
+      "sourceName": "contracts/TopSecret.sol",
       "solcConfig": {
         "version": "0.8.17",
         "settings": {
@@ -30,10 +30,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8"
+        "^0.8.7"
       ],
       "artifacts": [
-        "Test"
+        "TopSecret"
       ]
     }
   }
