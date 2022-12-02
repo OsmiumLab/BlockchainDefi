@@ -8,7 +8,14 @@
 </head>
 <body>
 
-    <button id="button"></button>
+    <button id="button">Connect</button>
+    <script>
+        document.getElementById("button").addEventListener("click", event =>{
+            ethereum.request({ method: 'eth_requestAccounts' }).then(accounts => {
+                console.log(accounts[0]);
+            });
+        })
+    </script>
     
 </body>
 </html>
