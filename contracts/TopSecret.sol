@@ -34,6 +34,10 @@ contract TopSecret {
         return names[_who];
     }
 
+    function getPoints(string memory _team) public view returns (int256) {
+        return teams[_team];
+    }
+
     function claimCode(string memory codeEntry, string memory teamName) public {
         // If the code is correct and the team name is not already taken
         if (codes[codeEntry]) {
